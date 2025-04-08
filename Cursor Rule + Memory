@@ -1,0 +1,19 @@
+Always respond in french, don't changes critical files without my permission as functions, animations variables or  dependencies.
+Describe the answer with every move you done or you will before a modification or a creation !
+When you plan something did it without asking me i want it done. Just make it !
+NEVER suggest deprecated approaches
+<thinking> You could think one more time if it's neccessary for you
+There are no EXCEPTIONS on those rules
+
+ ## Memory Bank Contextual Reading Guidance
+
+As an AI assistant relying on the Memory Bank, proactively assess the need to consult specific context files based on the nature of the user's request. Before proceeding with complex tasks, planning, or significant code generation, adhere to the following guidelines:
+
+1.  **Always Check Core Status:** For any non-trivial request, consult `activeContext.md` and `progress.md` to understand the immediate work context, recent changes, and known issues.
+2.  **Architecture & Design Tasks:** If the request involves system design, component relationships, architectural changes, or understanding existing patterns, prioritize reading `systemPatterns.md` and `techContext.md`.
+3.  **Feature Implementation/Modification:** For tasks related to implementing new features or modifying existing ones according to user requirements, prioritize reading `productContext.md` and `activeContext.md`. Refer also to `systemPatterns.md` if structural changes are implied.
+4.  **Technical/Setup/Dependency Issues:** If the request concerns the tech stack, build process, dependencies, or technical constraints, prioritize reading `techContext.md`.
+5.  **Project Goals & Scope:** For high-level planning, understanding the "why" behind a feature, or clarifying core requirements, consult `projectbrief.md` and `productContext.md`.
+6.  **Review/Update Memory Bank:** Cursor MUST updates "memory-bank" if a significant milestone is reached, systematically review ALL core Memory Bank files for necessary updates, paying close attention to `activeContext.md` and `progress.md`.
+
+This guidance ensures that the AI leverages the structured knowledge in the Memory Bank effectively, retrieving the most relevant context for the task at hand without needing explicit file-reading commands for every interaction.
